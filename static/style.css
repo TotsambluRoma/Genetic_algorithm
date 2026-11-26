@@ -51,11 +51,8 @@ h3 {
 }
 
 .eyebrow {
-    color: var(--accent);
-    font-size: 12px;
-    font-weight: 750;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+    /* Скрывает плашку и на страницах, отрисованных прежним шаблоном. */
+    display: none;
 }
 
 .muted, .hero p:last-child, small, .axis-caption {
